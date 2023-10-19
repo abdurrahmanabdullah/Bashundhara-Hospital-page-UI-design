@@ -27,8 +27,8 @@ class Home extends StatelessWidget {
                     nameImage: 'a1.png',
                     buttonText: 'Online Appointment',
                     onTap: () {
-                      Navigator.of(context).push(
-                          MaterialPageRoute(builder: (context) => BookForm()));
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => const BookForm()));
                     },
                   ),
                   // Text("Online Appointment"),
